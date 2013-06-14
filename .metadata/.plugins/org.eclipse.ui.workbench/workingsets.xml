@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1371069002573_9" label="ToDoList" name="ToDoList">
+<item elementID="=ToDoList" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ToDoListTest" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1368809787281_0" label="Window Working Set" name="Aggregate for window 1368809787280"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1369761231400_1" label="Window Working Set" name="Aggregate for window 1369761231399"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1369761889884_2" label="Window Working Set" name="Aggregate for window 1369761889884"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1369848658869_3" label="Window Working Set" name="Aggregate for window 1369848658869"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1370103122646_4" label="Window Working Set" name="Aggregate for window 1370103122646"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1370194264660_5" label="Window Working Set" name="Aggregate for window 1370194264660"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1370199342090_6" label="Window Working Set" name="Aggregate for window 1370199342090"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1371053734252_7" label="Window Working Set" name="Aggregate for window 1371053734252"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1371068573383_8" label="Window Working Set" name="Aggregate for window 1371068573383"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1371069535497_10" label="Window Working Set" name="Aggregate for window 1371069535497"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1371073691078_11" label="Window Working Set" name="Aggregate for window 1371073691078"/>
+<mruList name="ToDoList"/>
+</workingSetManager>

@@ -1,0 +1,52 @@
+package highland.todolist;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.EditText;
+import android.widget.ListView;
+
+public class ToDoListActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        ListView myListView = (ListView) findViewById(R.id.myListView);
+        final List<String> toDoItems = new LinkedList<String>();	// final for listener
+        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, toDoItems);
+        myListView.setAdapter(adapter);
+        final EditText myEditText = (EditText) findViewById(R.id.myEditText);
+        myEditText.setOnKeyListener(new View.OnKeyListener() {
+			@Override
+			public boolean onKey(View v, int keyCode, KeyEvent event) {
+				if (event.getAction()== KeyEvent.ACTION_DOWN) {
+					if ((keyCode == KeyEvent.KEYCODE_DPAD_CENTER) ||
+							(keyCode == KeyEvent.KEYCODE_ENTER)) {
+						toDoItems.add(0, myEditText.getText().toString());
+						adapter.notifyDataSetChanged();
+						myEditText.setText("");
+						return true;	// event consumed
+					}
+				}
+				return false;
+			}
+		});
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.to_do_list, menu);
+        return true;
+    }
+    
+}
